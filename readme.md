@@ -22,8 +22,8 @@ In Gigaset you have to configure this server as an LDAP Source in "Online-Telefo
 
 |Key|Value|
 |-----|------|
-|Namensfilter|`(|(name=*%*)(sn=%)(givenname=%))`|
-|Nummernfilter|`(|(office=%)(mobile=%))`|
+|Namensfilter|`(\|(name=*%*)(sn=%)(givenname=%))`|
+|Nummernfilter|`(\|(office=%)(mobile=%))`|
 |Zusätzlicher Filter #1 Name||
 |Zusätzlicher Filterwert #1 Wert||
 |Zusätzlicher Filter #2 Name||
